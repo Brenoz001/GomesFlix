@@ -4,6 +4,9 @@ body {
     background-color: #181818;
     color: #e0e0e0;
     font-family: 'Roboto', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Garante que o body ocupe 100% da altura da viewport */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -102,6 +105,7 @@ header {
 }
 
 main {
+    flex: 1; /* Faz o main ocupar o espaço restante */
     padding: 20px;
 }
 
