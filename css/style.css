@@ -246,3 +246,10 @@ footer {
         width: 90%;
     }
 }
+
+
+.logo-link .logo-icon {
+    font-size: 36px;
+    color: #ffffff;
+    margin-left: 5px; 
+}
